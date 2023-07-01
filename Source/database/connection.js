@@ -11,7 +11,7 @@ const params = {
   // password: '123456',
   password: '5749',
   max: 30
-};schedules
+};
 
 const DB = pgp(params);
 console.log("Connect to PostgresSQL: " + DB);
